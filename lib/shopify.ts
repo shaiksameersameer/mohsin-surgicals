@@ -5,7 +5,7 @@ import { Product, Customer, Order, Address } from '../types';
 // CONFIGURATION
 // ==========================================
 const SHOPIFY_DOMAIN = 'ptya1n-k0.myshopify.com'; 
-const SHOPIFY_ACCESS_TOKEN = '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';
+const SHOPIFY_ACCESS_TOKEN = 'c1fb47a74eaec2fbafa70becac08f52b';
 const API_VERSION = '2024-07';
 
 // ==========================================
