@@ -4,8 +4,8 @@ import { Product, Customer, Order, Address } from '../types';
 // ==========================================
 // CONFIGURATION
 // ==========================================
-const SHOPIFY_DOMAIN = '4jq1iv-eu.myshopify.com'; 
-const SHOPIFY_ACCESS_TOKEN = 'b3374507009ad0a808108261ac3a704b';
+const SHOPIFY_DOMAIN = 'ptya1n-k0.myshopify.com'; 
+const SHOPIFY_ACCESS_TOKEN = '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';
 const API_VERSION = '2024-07';
 
 // ==========================================
