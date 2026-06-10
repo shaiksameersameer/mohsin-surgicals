@@ -45,7 +45,7 @@ const ProductDetailPage: React.FC = () => {
     const y = ((e.clientY - top) / height) * 100;
     setZoomStyle({
       transformOrigin: `${x}% ${y}%`,
-      transform: 'scale(2)',
+      transform: 'scale(1)',
     });
   };
 
@@ -276,7 +276,7 @@ useEffect(() => {
               <img 
                 src={activeImage || product.image || undefined} 
                 alt={product.title} 
-                className={`max-h-[300px] md:max-h-[400px] w-auto object-contain mix-blend-multiply transition-transform duration-100 ease-out ${isZoomed ? 'scale-150' : 'scale-100'}`} 
+                className="max-h-[300px] md:max-h-[400px] w-auto object-contain mix-blend-multiply transition-transform duration-100 ease-out"
                 style={zoomStyle}
               />
               <div className="absolute top-4 right-4 flex flex-col gap-2 z-10">

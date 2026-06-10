@@ -59,7 +59,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <img 
           src={product.image || undefined} 
           alt={product.title} 
-          className={`max-h-full max-w-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-500 ${!product.inStock ? 'grayscale opacity-60' : ''}`}
+          className={`max-h-full max-w-full object-contain mix-blend-multiply  transition-transform duration-500 ${!product.inStock ? 'grayscale opacity-60' : ''}`}
         />
         
         {/* Badges */}
